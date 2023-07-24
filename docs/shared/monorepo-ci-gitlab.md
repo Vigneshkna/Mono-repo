@@ -1,5 +1,8 @@
 # Configuring CI Using GitLab and Nx
 
+Basic auth:
+https://admin:admin@the-internet.herokuapp.com/basic_auth
+
 Below is an example of a GitLab pipeline setup for an Nx workspace - building and testing only what is affected.
 
 ```yaml
