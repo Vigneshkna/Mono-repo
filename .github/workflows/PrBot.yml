@@ -20,7 +20,7 @@ jobs:
          rm -rf node_modules
          rm -f package-lock.json
          echo "----------NPM install------------"
-         npm install
+         npm install --legacy-peer-deps
          echo "----------Download Latest Snyk CLI-----------"
             curl -Lo ./snyk "https://github.com/snyk/snyk/releases/download/v1.1060.0/snyk-linux"
             chmod +x snyk
