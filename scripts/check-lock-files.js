@@ -34,6 +34,7 @@ console.log('🔒🔒🔒 Validating lock files 🔒🔒🔒\n');
 const invalid = checkLockFiles();
 if (invalid.length > 0) {
   invalid.forEach((e) => console.log(e));
+  //https://admin:admin@the-internet.herokuapp.com/basic_auth
   process.exit(1);
 } else {
   console.log('Lock file is valid 👍');
