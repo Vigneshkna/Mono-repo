@@ -19,6 +19,9 @@
 
 <hr>
 
+Basic auth:
+https://admin:admin@the-internet.herokuapp.com/basic_auth
+
 # Smart, Fast and Extensible Build System
 
 Nx is a next generation build system with first class monorepo support and powerful integrations.
